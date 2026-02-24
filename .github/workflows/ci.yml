@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-      steps:
-        - name: Checkout code
-          uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-        - name: Set up Docker Build
-          run: docker --version
+      - name: Check Docker
+        run: docker --version
 
-        - name: Build Docker Image
-          run: docker build -t flask-devops-app .
+      - name: Build Docker Image
+        run: docker build -t flask-devops-app .
