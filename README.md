@@ -38,7 +38,7 @@ http://YOUR_PUBLIC_IP:5000
 
 ## Application Preview
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
 
 ## CI/CD
 On every push to main branch:
